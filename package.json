@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "license": "MIT",
   "description": "To demonstrate a sample BDD framework using Cucumber and Protractor which is based on typescript",
-  "homepage": "https://github.com/igniteram/protractor-cucumber-typescript",
+  "homepage": "https://github.com/VPSRAOM/myWeatherSample",
   "keywords": [
     "protractor",
     "cucumber",
@@ -35,5 +35,5 @@
     "ts-node": "^3.3.0",
     "typescript": "^2.5.3"
   },
-  "repository": "https://github.com/igniteram/protractor-cucumber-typescript"
+  "repository": "https://github.com/VPSRAOM/myWeatherSample"
 }
