@@ -2,7 +2,7 @@
   "name": "myWeathere2e",
   "version": "3.0.0",
   "license": "MIT",
-  "description": "To demonstrate a sample BDD framework using Cucumber and Protractor which is based on typescript",
+  "description": "To demonstrate a sample BDD framework using Cucumber and Protractor based on typescript",
   "homepage": "https://github.com/VPSRAOM/myWeatherSample",
   "keywords": [
     "protractor",
