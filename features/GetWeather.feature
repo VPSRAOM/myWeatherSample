@@ -1,4 +1,4 @@
-﻿Feature: Getting the weather forecast
+Feature: Getting the weather forecast
   In order to get weather
   As person who has to go outside sometimes
   I want to be told the weather so i know what to wear
@@ -24,6 +24,33 @@
     Given I opened the app
     Then I clear the search text
     When I type "Perth"
+    When I press the enter key
+    When I click I see the weather forecast
+    When I check Daily forecast should summarise the three hour data
+
+  @WeatherScenario
+  Scenario: Get forecast for for 3 hourly for added location
+    Given I opened the app
+    Then I clear the search text
+    When I type "Glasgow"
+    When I press the enter key
+    When I click I see the weather forecast
+    When I check Daily forecast should summarise the three hour data
+
+  @WeatherScenario
+  Scenario: Get forecast for for 3 hourly for added location
+    Given I opened the app
+    Then I clear the search text
+    When I type "Stirling"
+    When I press the enter key
+    When I click I see the weather forecast
+    When I check Daily forecast should summarise the three hour data
+
+  @WeatherScenario
+  Scenario: Get forecast for for 3 hourly for added location
+    Given I opened the app
+    Then I clear the search text
+    When I type "Dundee"
     When I press the enter key
     When I click I see the weather forecast
     When I check Daily forecast should summarise the three hour data
